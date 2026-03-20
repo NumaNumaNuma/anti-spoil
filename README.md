@@ -11,6 +11,14 @@ Great for sports highlights, movie trailers, mystery videos, or anything where t
 
 Works on `youtube.com` and embedded YouTube players (`youtube-nocookie.com`).
 
+You can still control playback with keyboard shortcuts:
+
+| Key | Action |
+|-----|--------|
+| `J` | Rewind 10 seconds |
+| `K` | Play / Pause |
+| `L` | Forward 10 seconds |
+
 ## Install
 
 1. [Download this repo](../../archive/refs/heads/main.zip) or clone it:
