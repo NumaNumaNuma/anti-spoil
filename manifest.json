@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Anti Spoil",
+  "version": "1.0",
+  "description": "Hides the progress bar and time remaining on the YouTube player on both the website and embeds.",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/*",
+        "*://*.youtube-nocookie.com/*"
+      ],
+      "all_frames": true,
+      "match_about_blank": true,
+      "css": ["styles.css"]
+    }
+  ]
+}
